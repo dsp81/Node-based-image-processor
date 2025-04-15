@@ -1,0 +1,6 @@
+This version basically configures all the components and makes sure they are working together. If you run this right, you will get a canvas window with a test circle inside it.
+
+The src folder contains all .h and .cpp files namely mainwindow and nodecanvas. The mainwindow file defines the how the window will look like when the application opens. The nodecanvas file deals with thw workings basically the test circle you will see will be due ti that.
+
+The build folder is formed when you run the build command on cmakelists.txt. After that make sure to add Qt6Widgetes.dll,Qt6Core,Qt6GUI and the Platforms folder inside plugins folder to the build folder in NodeEditor, this is how the code will run otherwise you will see configuration related errors.
+
