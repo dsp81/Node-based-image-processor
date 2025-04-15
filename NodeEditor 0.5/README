@@ -1,0 +1,6 @@
+This is a halfway checkpoint.
+
+To run all the instructions are similar to the previous version. Just the main.cpp has been moved to the src folder. Also in this you will also have to add the image_formats folder from plugins to the build folder since we are doing image loading.
+
+This version has a window with a toolbar with two tabs - file and add nodes. From add nodes, you can add different nodes although most of them dont hava any functionality. You can move them around connect and connect them with edges as well. TO make an edge click the two port that are two be connected. To remove the edge click the ports again in succession.
+You can also save a file or load an already existing file plus you can also exit the window using the files tab.
