@@ -90,29 +90,4 @@ The project will progress through several defined stages:
 
 ---
 
-## Why Build This
 
-This isn’t just another GUI tool. It’s an exercise in:
-- Designing modular, extensible architecture.
-- Working with UI frameworks like Qt.
-- Integrating real-time image processing using OpenCV.
-- Building something that mirrors actual pipelines in tools like Nuke or Blender’s compositor, but from scratch.
-
-The final application should feel intuitive enough for someone to load an image and build a custom filter from scratch without touching a line of code — while also being extensible for developers to register new custom nodes.
-
----
-
-## Build Instructions
-
-Requires:
-- Qt 6.5.3 with MinGW
-- CMake 3.16+
-- OpenCV 4.x
-- Windows with a C++17+ compatible compiler
-
-```bash
-cd NodeEditor
-mkdir build
-cd build
-cmake ..
-mingw32-make
