@@ -9,7 +9,7 @@ public:
     Edge(Port* from, Port* to, QGraphicsItem* parent = nullptr);
     void updatePosition();
 
-    // ✅ Make these public so NodeCanvas can query ports
+    // Made these public so NodeCanvas can query ports
     Port* startPort() const { return m_from; }
     Port* endPort() const { return m_to; }
 
