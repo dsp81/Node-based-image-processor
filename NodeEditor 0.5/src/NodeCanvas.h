@@ -17,7 +17,7 @@ public:
     void handlePortClick(Port* port);
     void addNode(NodeItem* node);
 
-    // ✅ Save/Load functionality
+    //  Save/Load functionality
     void saveToJson(const QString& filename);
     void loadFromJson(const QString& filename);
 
